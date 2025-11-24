@@ -1,0 +1,65 @@
+---
+sidebar_position: 1
+title: Installation
+description: Set up HTTPie on your local machine.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Installation
+
+Ready to make APIs human-friendly? Let’s get **HTTPie** installed on your machine. 
+
+## Objective
+By the end of this guide, you will have the HTTPie Command Line Interface (CLI) installed and verified on your operating system.
+
+## Prerequisites
+* Access to a terminal or command prompt.
+* Administrator or `sudo` privileges on your machine.
+
+## Step-by-Step Instructions
+
+Select your operating system below to see the specific commands.
+
+<Tabs>
+  <TabItem value="mac" label="macOS" default>
+
+We recommend using **Homebrew** for the easiest maintenance.
+
+1.  Open your terminal.
+2.  Run the installation command:
+    ```bash
+    brew install httpie
+    ```
+3.  Wait for Homebrew to link the binary.
+
+  </TabItem>
+  <TabItem value="win" label="Windows">
+
+You can install HTTPie via **Winget**, **Scoop**, or **Chocolatey**.
+
+1.  Open PowerShell or Command Prompt.
+2.  Run **one** of the following commands:
+
+    **Using Winget (Recommended):**
+    ```powershell
+    winget install httpie
+    ```
+
+    **Using Chocolatey:**
+    ```powershell
+    choco install httpie
+    ```
+
+  </TabItem>
+  <TabItem value="linux" label="Linux">
+
+HTTPie is available in most package managers.
+
+**Debian/Ubuntu:**
+```bash
+curl -SsL [https://packages.httpie.io/deb/KEY.gpg](https://packages.httpie.io/deb/KEY.gpg) | sudo gpg --dearmor -o /usr/share/keyrings/httpie.gpg
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/httpie.gpg] [https://packages.httpie.io/deb](https://packages.httpie.io/deb) ./" | sudo tee /etc/apt/sources.list.d/httpie.list
+sudo apt update
+sudo apt install httpie
