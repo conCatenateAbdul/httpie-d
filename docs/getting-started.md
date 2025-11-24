@@ -53,7 +53,7 @@ You can install HTTPie via **Winget**, **Scoop**, or **Chocolatey**.
     ```
 
   </TabItem>
-  <TabItem value="linux" label="Linux">
+  
 
 HTTPie is available in most package managers.
 
