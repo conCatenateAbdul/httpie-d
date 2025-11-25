@@ -102,5 +102,5 @@ You now possess the core syntax logic:
   <li><code>==</code> for URL query strings.</li>
 </ol>
 
-> [!note]
+> [!Note]
 Next Steps Now that you understand the basics, check out our Guides section to see how to handle file uploads and sessions!
