@@ -33,7 +33,6 @@ graph TD;
 
 Select your operating system below to see the specific commands.
 
-**macOS:**
 <Tabs>
   <TabItem value="mac" label="macOS" default>
 
@@ -48,8 +47,6 @@ We recommend using **Homebrew** for the easiest maintenance.
 
   </TabItem>
   <TabItem value="win" label="Windows">
-    
-**Windows:**
     
 You can install HTTPie via **Winget**, **Scoop**, or **Chocolatey**.
 
