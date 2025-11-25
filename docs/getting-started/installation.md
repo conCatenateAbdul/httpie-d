@@ -99,4 +99,5 @@ http --version
 ```
 2. You should see an output similar to <code>3.2.2</code> (or the latest version).
 
->  Troubleshooting If your terminal says `command not found`, try restarting your terminal session to refresh your system paths.
+> [!Note]
+Troubleshooting If your terminal says `command not found`, try restarting your terminal session to refresh your system paths.
