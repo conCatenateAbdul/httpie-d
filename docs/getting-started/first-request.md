@@ -13,7 +13,17 @@ You will send a `GET` request to a public API and inspect the formatted, coloriz
 
 
 
-[Image of HTTP request response cycle]
+```mermaid
+sequenceDiagram
+    participant User
+    participant HTTPie
+    participant API as GitHub API
+    
+    User->>HTTPie: http api.github.com/zen
+    HTTPie->>API: GET /zen
+    API-->>HTTPie: 200 OK (Response)
+    HTTPie-->>User: Formatted & Colorized Output
+```
 
 
 ## Prerequisites
@@ -29,15 +39,17 @@ We will query the GitHub API. It is public, fast, and returns nice JSON data.
 
 Copy and paste this command into your terminal:
 
-```bash
-http https://api.github.com/zen https://api.github.com/zen
-```
+> [!TIP]
+> **Try it!**
+> ```bash
+> http https://api.github.com/zen
+> ```
 ### Step 2: Analyze the Output
+
 You should see two distinct sections in your terminal:
 
-1. <strong>Headers:</strong> The metadata about the response (status code, date, content type).
-
-2. <strong>Body:</strong> The actual data returned by the server.
+1.  **Headers:** The metadata about the response (status code, date, content type).
+2.  **Body:** The actual data returned by the server.
 
 It will look something like this:
 
@@ -54,12 +66,17 @@ Avoid administrative distraction.
 Shorthand Syntax HTTPie is smart. You don't always need to type `https://`. If you run `http api.github.com/zen`, it defaults to `http`. For secure requests, explicitly type https
 
 ### Why this matters
-Notice what you didn't have to do:
-<ul>
- <li> You didn't use <code>-v</code> to see headers.</li>
 
- <li> You didn't pipe to a formatter to make it eadable </li>
- <li>You didn't struggle with complex flags.</li>
-</ul>
+Notice what you didn't have to do:
+
+*   You didn't use `-v` to see headers.
+*   You didn't pipe to a formatter to make it readable.
+*   You didn't struggle with complex flags.
 
 HTTPie assumes you want to see the whole conversation (headers and body) formatted for human eyes.
+
+## Next Steps
+
+Ready to master the syntax?
+
+[👉 Basic Concepts](./basic-concepts)
