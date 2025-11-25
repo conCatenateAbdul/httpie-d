@@ -20,6 +20,17 @@ By the end of this guide, you will have the HTTPie Command Line Interface (CLI) 
 
 ## Step-by-Step Instructions
 
+Choose your path to installation:
+
+```mermaid
+graph TD;
+    A[Start] --> B{What is your OS?};
+    B -- macOS --> C[Homebrew];
+    B -- Windows --> D[Winget / Scoop / Choco];
+    B -- Linux --> E[Apt / Dnf / Pacman];
+    B -- Any --> F[Python Pip];
+```
+
 Select your operating system below to see the specific commands.
 
 **macOS:**
@@ -90,14 +101,29 @@ pip install httpie
 </TabItem> </Tabs>
 
 ## Verification
-Let’s make sure everything is working correctly
 
-1. Run the version command:
+Let’s make sure everything is working correctly.
 
-```bash
-http --version
-```
-2. You should see an output similar to <code>3.2.2</code> (or the latest version).
+1.  Run the version command:
 
-> [!Note]
-Troubleshooting If your terminal says `command not found`, try restarting your terminal session to refresh your system paths.
+    ```bash
+    http --version
+    ```
+
+2.  You should see an output similar to `3.2.2` (or the latest version).
+
+    > [!TIP]
+    > **Success!** If you see the version number, you are ready to go.
+
+> [!WARNING]
+> **Troubleshooting**
+>
+> If your terminal says `command not found`:
+> 1.  Restart your terminal session to refresh your system paths.
+> 2.  Ensure the installation directory is in your system's `PATH`.
+
+## Next Steps
+
+Now that you're set up, let's send your first request!
+
+[👉 Your First Request](./first-request)
