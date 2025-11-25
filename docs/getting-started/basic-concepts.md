@@ -22,12 +22,13 @@ graph LR;
     A -->|field:=value| C(JSON Raw/Bool/Int);
     A -->|Header:Value| D(HTTP Header);
     A -->|param==value| E(URL Query Param);
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#ccf,stroke:#333
-    style C fill:#ccf,stroke:#333
-    style D fill:#cfc,stroke:#333
-    style E fill:#fcc,stroke:#333
+
+    %% Vibrant, high-contrast colors
+    style A fill:#FF66CC,stroke:#222,stroke-width:2px
+    style B fill:#66B3FF,stroke:#222,stroke-width:1px
+    style C fill:#5CD65C,stroke:#222,stroke-width:1px
+    style D fill:#FFDB4D,stroke:#222,stroke-width:1px
+    style E fill:#FF6666,stroke:#222,stroke-width:1px
 ```
 
 
