@@ -38,7 +38,8 @@ http -a admin:secret GET httpbin.org/basic-auth/admin/secret
 ```bash
 http -a admin GET httpbin.org/basic-auth/admin/secret
 ```
-</TabItem> <TabItem value="bearer" label="Bearer Token">
+</TabItem>
+<TabItem value="bearer" label="Bearer Token">
 
 **Bearer Token (JWT)**
 
@@ -50,9 +51,13 @@ Common in OAuth2 and modern web apps.
 ```bash
 http GET httpbin.org/bearer Authorization:"Bearer my-jwt-token-123"
 ```
-*<strong>Note<strong>: We manually set the header here, but you can also install the httpie-jwt-auth plugin for a dedicated flag.*
 
-</TabItem> <TabItem value="netrc" label=".netrc File">
+:::note
+We manually set the header here, but you can also install the `httpie-jwt-auth` plugin for a dedicated flag.
+:::
+
+</TabItem>
+<TabItem value="netrc" label=".netrc File">
 
 **The .netrc File**
 Avoid typing credentials entirely by storing them in a `~/.netrc` file. HTTPie reads this automatically.
@@ -71,11 +76,10 @@ http api.example.com/profile
 ```
 *(No flags needed!)*
 
-</TabItem> </Tabs>
+</TabItem>
+</Tabs>
 
 **Explanation**
 
-<ul>
-  <li><code>-a</code> / <code>--auth</code>: The shorthand flag for Basic Auth.</li>
-  <li>Header manipulation: For schemes like Bearer or API Keys (X-API-Key), simply setting the header is often the fastest method.</li>
-</ul>
+*   `-a` / `--auth`: The shorthand flag for Basic Auth.
+*   Header manipulation: For schemes like Bearer or API Keys (X-API-Key), simply setting the header is often the fastest method.
