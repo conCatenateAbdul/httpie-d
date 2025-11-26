@@ -115,7 +115,6 @@ You now possess the core syntax logic:
 3.  `:` for Headers.
 4.  `==` for URL query strings.
 
-> [!TIP]
-> **Next Steps**
->
-> Now that you understand the basics, check out our Guides section to see how to handle file uploads and sessions!
+:::tip Next Steps
+Now that you understand the basics, check out our Guides section to see how to handle file uploads and sessions!
+:::
