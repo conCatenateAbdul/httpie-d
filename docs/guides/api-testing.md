@@ -36,7 +36,7 @@ http --check-status GET httpbin.org/status/200
 <ul>
   <li>Output: Shows the HTTP 200 response.</li>
   <li>Exit Code: <code>0</code> (Success).</li>
-  <li>Pipeline: Continues to the next step.</li>
+  <li>Pipeline: Continues to the next step. </li>
 </ul>
 
 </TabItem> <TabItem value="fail" label="Scenario: Failure">
