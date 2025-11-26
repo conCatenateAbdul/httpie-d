@@ -76,6 +76,6 @@ http [api.example.com/profile](https://api.example.com/profile)
 **Explanation**
 
 <ul>
-  <li><code>-a</code> / <ode>--auth</code>: The shorthand flag for Basic Auth.</li>
+  <li><code>-a</code> / <code>--auth</code>: The shorthand flag for Basic Auth.</li>
   <li>Header manipulation: For schemes like Bearer or API Keys (X-API-Key), simply setting the header is often the fastest method.</li>
 </ul>
