@@ -51,7 +51,7 @@ Common in OAuth2 and modern web apps.
 ```bash
 http GET httpbin.org/bearer Authorization:"Bearer my-jwt-token-123"
 ```
-*Note: We manually set the header here, but you can also install the httpie-jwt-auth plugin for a dedicated flag.*
+*<strong>Note<strong>: We manually set the header here, but you can also install the httpie-jwt-auth plugin for a dedicated flag.*
 
 </TabItem> <TabItem value="netrc" label=".netrc File">
 
