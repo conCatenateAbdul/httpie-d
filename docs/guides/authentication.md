@@ -59,7 +59,7 @@ Avoid typing credentials entirely by storing them in a `~/.netrc` file. HTTPie r
 
 File Content (`~/.netrc`)
 
-```powershell[plaintext]
+```powershell
 machine api.example.com
 login myuser
 password mypassword
@@ -67,7 +67,7 @@ password mypassword
 
 **Command:**
 ```bash
-http [api.example.com/profile](https://api.example.com/profile)
+http api.example.com/profile
 ```
 *(No flags needed!)*
 
