@@ -14,15 +14,13 @@ Most public APIs require you to prove your identity. HTTPie supports several aut
 ## Objective
 You will authenticate requests using Basic Auth, Bearer Tokens, and API Keys.
 
-
-
 ## Prerequisites
 * Credentials for the API you are accessing.
 
 ## Supported Methods
 
 <Tabs>
-  <TabItem value="basic" label="Basic Auth" default>
+<TabItem value="basic" label="Basic Auth" default>
 
 ### Basic Authentication
 The standard username/password scheme.
@@ -38,6 +36,7 @@ http -a admin:secret GET httpbin.org/basic-auth/admin/secret
 ```bash
 http -a admin GET httpbin.org/basic-auth/admin/secret
 ```
+
 </TabItem>
 <TabItem value="bearer" label="Bearer Token">
 
@@ -52,9 +51,7 @@ Common in OAuth2 and modern web apps.
 http GET httpbin.org/bearer Authorization:"Bearer my-jwt-token-123"
 ```
 
-:::note
-We manually set the header here, but you can also install the `httpie-jwt-auth` plugin for a dedicated flag.
-:::
+> **Note:** We manually set the header here, but you can also install the `httpie-jwt-auth` plugin for a dedicated flag.
 
 </TabItem>
 <TabItem value="netrc" label=".netrc File">
