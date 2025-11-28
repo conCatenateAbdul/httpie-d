@@ -19,7 +19,7 @@ You will learn how to use HTTPie's check-status flags and exit codes to write a 
 * Basic command line knowledge (Bash/Shell).
 * An API endpoint to test.
 
-## enforcing Status Codes
+## Enforcing Status Codes
 By default, HTTPie exits successfully (code `0`) even if the API returns a 404 or 500 error. To use HTTPie in a CI/CD pipeline, you need it to fail when the API fails.
 
 ### The `--check-status` Flag
