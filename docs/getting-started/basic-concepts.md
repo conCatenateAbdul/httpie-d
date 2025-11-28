@@ -100,7 +100,7 @@ Actual URL Requested: `http://httpbin.org/get?page=2&sort=desc`
 </TabItem> </Tabs>
 
 ### Shortcuts for Localhost
-If you develop locally, typing localhost gets repetitive. HTTPie supports shorthand for ports.
+If you develop locally, skip typing 'localhost' repeatedly. Use HTTPie's shorthand: `http :3000` for port 3000.
 <ul>
   <li> <code>http :3000/users</code> → <code>http://localhost:3000/users</code></li>
   <li> <code>http :/tags</code> → <code>http://localhost/tags</code></li>
