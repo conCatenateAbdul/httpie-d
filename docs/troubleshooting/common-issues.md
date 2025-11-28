@@ -60,3 +60,9 @@ sequenceDiagram
 Use the `--verify=no` flag to bypass verification.
 ```bash
 http --verify=no GET [https://internal-api.local](https://internal-api.local)
+```
+
+Warning: Only use this for trusted local networks.
+
+</TabItem> <TabItem value="timeout" label="Timeouts">
+
