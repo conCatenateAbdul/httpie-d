@@ -13,7 +13,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Documentation',
-    Svg: require('@site/static/img/documentation.jpg').default,
+    image: require('@site/static/img/documentation.jpg').default,
     description: (
       <>
         Offers user guides, API references, system architecture overviews, release notes, and more.
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Cybersecurity',
-    Svg: require('@site/static/img/cybersecurity.jpg').default,
+    image: require('@site/static/img/cybersecurity.jpg').default,
     description: (
       <>
         Covers compliance standards (ISO, GDPR), incident response plans, firewall configuration, penetration testing reports, secure coding practices, and more.
