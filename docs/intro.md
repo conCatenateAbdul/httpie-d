@@ -1,47 +1,32 @@
 ---
 sidebar_position: 1
+slug: /
+title: Welcome to HTTPie
 ---
 
-# Tutorial Intro
+# HTTPie Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**HTTPie** (pronounced *aych-tee-tee-pie*) is a command-line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. It provides a simple `http` command that allows for sending arbitrary HTTP requests using a simple, natural syntax, and displays colorized output.
 
-## Getting Started
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Why HTTPie?
+* **Expressive:** Simple syntax for headers, JSON, and files.
+* **Built-in JSON support:** No need to install `jq` for basic formatting.
+* **Persistent Sessions:** Log in once, stay logged in.
+* **Extensions:** A plugin system to support custom auth and more.
 
-### What you'll need
+## Getting Started quickly
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+If you are new here, start with the **[Installation](./getting-started/installation)** guide.
 
-## Generate a new site
+If you are a veteran looking for flags, jump to the **[Command Line Options](./reference/command-line-options)** reference.
 
-Generate a new Docusaurus site using the **classic template**.
+## Interactive Guide structure
+This documentation is organized into three sections:
 
-The classic template will automatically be added to your project after you run the command:
+1.  **Getting Started:** Zero to Hero in 10 minutes.
+2.  **Guides:** Deep dives into Authentication, Uploads, and Scripting.
+3.  **Reference:** Cheat sheets for flags and variables.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Let's make APIs fun again! 🚀
