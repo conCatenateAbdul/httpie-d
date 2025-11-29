@@ -13,14 +13,14 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Documentation',
-    Svg: require('@site/static/img/documentation.png').default,
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
         Offers user guides, API references, system architecture overviews, release notes, and more.
       </>
     ),
   },
-    {
+  {
     title: 'Meet the Author',
     image: require('@site/static/img/abdulmalik_uthman.jpg').default,
     description: (
@@ -31,13 +31,14 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Cybersecurity',
-    Svg: require('@site/static/img/cybersecurity.png').default,
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         Covers compliance standards (ISO, GDPR), incident response plans, firewall configuration, penetration testing reports, secure coding practices, and more.
       </>
     ),
-  };
+  },
+];
 
 function Feature({ title, Svg, image, description }: FeatureItem) {
   return (
