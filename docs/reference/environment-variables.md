@@ -30,3 +30,8 @@ To apply specific flags to **every** request automatically, use `HTTPIE_DEFAULT_
 
 ```bash
 export HTTPIE_DEFAULT_OPTIONS="--style=solarized --follow"
+```
+
+Now, running `http google.com` is equivalent to http `--style=solarized` `--follow google.com`.
+
+:::warning Overriding Defaults Be careful when scripting! If you set HTTPIE_DEFAULT_OPTIONS in your local environment, your scripts might behave differently on other machines that don't have those variables set. :::
