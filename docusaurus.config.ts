@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'conCatenateAbdul',
+  title: 'WriteOps-Studio',
   tagline: 'Technical Writer | IT Support Specialist | Cybersecurity Analyst',
   favicon: 'img/favicon.ico',
 
@@ -81,7 +81,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'conCatenateAbdul',
+      title: 'WriteOps-Studio',
       logo: {
         alt: 'conCatenateAbdul Logo',
         src: 'img/logo.png',
@@ -118,7 +118,7 @@ const config: Config = {
           items: [
             {
               label: 'LinkedIn',
-              href: 'https://linkedin.com/in/concatenateabdul',
+              href: 'https://www.linkedin.com/in/abdulmalik-uthman/',
             },
             {
               label: 'Twitter',
