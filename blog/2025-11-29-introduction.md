@@ -1,6 +1,6 @@
 ---
 slug: introduction
-title: Welcome to conCatenateAbdul's Tech Hub
+title: Welcome to WriteOps-Studio
 authors: [concatenateabdul]
 tags: [introduction, bio, tech]
 ---
