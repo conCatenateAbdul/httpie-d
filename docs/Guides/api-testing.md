@@ -47,7 +47,7 @@ http --check-status GET httpbin.org/status/404
 **Result**
 *   Output: Shows the HTTP 404 response.
 *   Console `Error: http: error: 404 Not Found`
-*   Exit Code: `4` (See Error Codes)
+*   Exit Code: `4` **[(See Error Codes)]**(./Troubleshooting/error-codes.md)
 *   Pipeline: Stops immediately.
 
   </TabItem>
